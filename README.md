@@ -6,9 +6,9 @@ http://go.microsoft.com/fwlink/?LinkId=320437
 
 Copyright (c) Microsoft Corporation. All rights reserved.
 
-**June 3, 2020**
+**June 3, 2020,**
 
-DXUT is a "GLUT"-like framework for Direct3D 11.x Win32 desktop applications; primarily
+DXUT is a "GLUT"-as a framework for Direct3D 11.x Win32 desktop applications; primarily
 samples, demos, and prototypes.
 
 This code is designed to build with Visual Studio 2017 ([15.9](https://walbourn.github.io/vs-2017-15-9-update/)) or Visual Studio 2019. It is recommended that you make use of the Windows 10 May 2020 Update SDK ([19041](https://walbourn.github.io/windows-10-may-2020-update-sdk/)).
@@ -21,7 +21,7 @@ Documentation is available on the [GitHub wiki](https://github.com/Microsoft/DXU
 
 ## Notices
 
-*This project is 'archived'. It is still available for use for legacy projects, but use of it for new projects is not recommended.*
+*This project is 'archived'. It is still available for use for legacy projects, but the use of it for new projects is not recommended.*
 
 All content and source code for this package are subject to the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
@@ -37,7 +37,7 @@ These are hosted on [GitHub](https://github.com/walbourn/directx-sdk-samples)
 
 ## Disclaimer
 
-DXUT is being provided as a porting aid for older code that makes use of the legacy DirectX SDK, the deprecated D3DX9/D3DX11 library, and the DXUT11 framework. It is a cleaned up version of the original DXUT11 that will build with the Windows 8.1 / 10 SDK and does not make use of any legacy DirectX SDK or DirectSetup deployed components.
+DXUT is being provided as a porting aid for older code that makes use of the legacy DirectX SDK, the deprecated D3DX9/D3DX11 library, and the DXUT11 framework. It is a cleaned-up version of the original DXUT11 that will build with the Windows 8.1 / 10 SDK and does not make use of any legacy DirectX SDK or DirectSetup deployed components.
 
 The DXUT framework is for use in Win32 desktop applications. It not usable for Universal Windows Platform apps, Windows Store apps,
 Xbox One apps, or Windows phone.
@@ -46,4 +46,4 @@ This version of DXUT only supports Direct3D 11, and therefore is not compatible 
 
 ## Release Notes
 
-* The VS 2017/2019 projects make use of ``/permissive-`` for improved C++ standard conformance. Use of a Windows 10 SDK prior to the Fall Creators Update (16299) or an Xbox One XDK prior to June 2017 QFE 4 may result in failures due to problems with the system headers. You can work around these by disabling this switch in the project files which is found in the ``<ConformanceMode>`` elements, or in some cases adding ``/Zc:twoPhase-`` to the ``<AdditionalOptions>`` elements.
+* The VS 2017/2019 projects make use of ``/permissive-`` for improved C++ standard conformance. Use of a Windows 10 SDK prior to the Fall Creators Update (16299) or an Xbox One XDK prior to June 2017 QFE 4 may result in failures due to problems with the system headers. You can work around these by disabling this switch in the project files which is found in the ``<ConformanceMode>`` elements, or in some cases adding ``/Zc:two phase-`` to the ``<AdditionalOptions>`` elements.
